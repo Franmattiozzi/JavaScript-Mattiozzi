@@ -13,7 +13,12 @@ while(deuda != "pagar") {
     deuda = prompt("Escriba pagar para cancelar su deuda");
 }
 
-if(deuda = "pagar") {
+
+function deudaPagada(){
     alert("Ya no posees deudas!");
     console.log(nombreCliente + " Ya no posee deudas!! ");
+}
+
+if(deuda = "pagar") {
+    deudaPagada();
 }
