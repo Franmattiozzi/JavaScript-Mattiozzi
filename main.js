@@ -5,7 +5,7 @@ const stockProductos = [
       cantidad: 1,
       desc: "Banco para barra común con base caño 100x50. Pintura electroestatica. Tapizados de alta densidad. Rodillos de poliuretano.",
       precio: 35000,
-      img: "images/banco-m.jpg",
+      img: "../images/banco-m.jpg",
     },
     {
       id: 2,
@@ -13,7 +13,7 @@ const stockProductos = [
       cantidad: 1,
       desc: "Estructura lista y preparada para cumplir todas las funciones necesarias de un atleta profesional. Dominadas con su barra de doble agarre y múltiples ejercicios en altura. Fondos con las paralelas de diseño “macizo” lista para aguantar +150kg.",
       precio: 55000,
-      img: "images/Halfrack.jpg",
+      img: "../images/Halfrack.jpg",
     },
     {
       id: 3,
@@ -21,7 +21,7 @@ const stockProductos = [
       cantidad: 1,
       desc: "Fabricada con caños reforzados de 2mm, cables reforzados para 300kg, bulones de dureza 8.8 y pintada con pintura al horno.",
       precio: 40000,
-      img: "images/maquinador (1).jpg",
+      img: "../images/maquinador (1).jpg",
     },
     {
       id: 4,
@@ -62,22 +62,6 @@ const stockProductos = [
       desc: "Dispara como nunca",
       precio: 1200,
       img: "img/callduty.jpg",
-    },
-    {
-      id: 9,
-      nombre: "Fifa 2019",
-      cantidad: 1,
-      desc: "Juego de futbol",
-      precio: 1400,
-      img: "img/fifa.jpg",
-    },
-    {
-      id: 10,
-      nombre: "Fornite",
-      cantidad: 1,
-      desc: "Battle Royale",
-      precio: 1200,
-      img: "img/fornite.jpg",
     },
   ];
   let carrito = [];
@@ -135,9 +119,9 @@ const stockProductos = [
       <div class="card mt-3" style="width: 18rem;">
       <img class="card-img-top mt-2" src="${img}" alt="Card image cap">
       <div class="card-body">
-        <h5 class="card-title">${nombre}</h5>
-        <p class="card-text">Precio: ${precio}</p>
-        <p class="card-text">Descripcion: ${desc}</p>
+        <h3 class="card-title">${nombre}</h3>
+        <p class="card-text">$ ${precio}</p>
+        <p class="card-text"> ${desc}</p>
         <p class="card-text">Cantidad: ${cantidad}</p>
         <button class="btn btn-primary" onclick="agregarProducto(${id})">Comprar Producto</button>
       </div>
@@ -176,8 +160,8 @@ const stockProductos = [
           <img class="img-fluid img-carrito" src="${img}"/>
           </div>
           <div>
-          <p>Producto: ${nombre}</p>
-        <p>Precio: ${precio}</p>
+          <p> ${nombre}</p>
+        <p>$ ${precio}</p>
         <p>Cantidad :${cantidad}</p>
         <button class="btn btn-danger"  onclick="eliminarProducto(${id})">Eliminar producto</button>
           </div>

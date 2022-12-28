@@ -1,0 +1,127 @@
+$mobile: 568px;
+$tablet: 768px;
+$desktop: 1024px;
+
+@import "inicio";
+@import "dondeEstamos";
+@import "colecciones";
+@import "media";
+@import "sobreNosotros";
+@import "promos";
+
+
+
+
+    *{
+        box-sizing: border-box;
+    }
+
+
+    body {
+        font-family: sans-serif;
+        margin: 0;
+        h1{ font-size: 3.5em;}
+        h2{ font-size: 2.7em;}
+        h3{ font-size: 2em;}
+        p{ font-size: 1.25em;}
+        ul{ list-style: none;} 
+        li{ font-size: 1.25em;}
+        header{
+            width: 100%;
+            margin: 0;
+            & .container{
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            & .nav{
+                flex-direction: row;
+                padding-bottom: 0;
+                padding-right: 20px;
+                & a:hover{
+                    font-size: 1.12em;
+                }
+            }
+            }
+        button{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: 1px solid rgb(0, 0, 5);
+            color: rgb(0, 0, 0);
+            background-color: white;
+                & button:hover{
+                    background-color: rgba(177, 177, 177, 0.322);
+                    color: white;
+                    border: 5px;
+                }
+        }
+        .container{
+            max-width: 1400px;
+            margin: auto;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .logo{
+            margin: 0;
+            padding: 25px 30px;
+            display: flex;
+            align-items: center;
+        }
+        nav{ 
+            & a{
+            font-weight: 600;
+            padding-right: 10px;
+            }
+        }
+        img{
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .modal-contenedor{
+            display:flex;
+            align-items: center;
+            gap:2rem;
+        }
+        .img-carrito{
+            width:200px;
+            padding:20px;
+        } 
+        .modal-content{
+            background-color: #E3D8D6;
+        }
+        .parrafo{
+            font-weight: 900;
+            font-style: italic;
+        }
+        #precioTotal{
+            margin:0;
+            padding:0;
+        }
+        
+
+}
+
+    @keyframes slidein {
+        0% {
+            margin-bottom: 100%;
+        }
+
+        100% {
+            margin-bottom: 0%;
+        }
+    }
+
+    @keyframes slideup {
+        0% {
+            margin-top: 100%;
+        }
+
+        100% {
+            margin-top: 0%;
+        }
+
+
+}

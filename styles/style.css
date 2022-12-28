@@ -1,0 +1,489 @@
+#beneficios .container {
+  text-align: center;
+  padding: 150px 20px;
+}
+#beneficios li {
+  margin: 16px 10px;
+  font-weight: bold;
+  line-height: 30px;
+}
+#beneficios li:hover {
+  font-size: 2em;
+}
+
+#final {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(2deg, rgba(0, 0, 0, 0.76), rgb(180, 179, 179)), url("../images/press.jpg.jpg");
+  background-color: black;
+  color: white;
+  height: 80vh;
+}
+#final h2 {
+  font-size: 9vw;
+}
+#final button {
+  font-size: 5vw;
+}
+
+.sucursales {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.carousel-inner h1 {
+  font-size: 8vw;
+}
+.carousel-inner a {
+  margin: 0px 0px;
+}
+
+#hero {
+  margin-top: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  color: white;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
+  background-image: linear-gradient(0deg, rgba(83, 80, 80, 0.596), rgba(54, 54, 54, 0.397)), url("../images/tpfb.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#nuestros-productos {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding: 120px 0px;
+}
+#nuestros-productos h2 {
+  margin-top: 0;
+  font-size: 2em;
+}
+#nuestros-productos h3 {
+  margin-top: 0;
+  font-size: 1em;
+}
+#nuestros-productos p {
+  display: none;
+}
+#nuestros-productos .muestras {
+  justify-content: center;
+}
+#nuestros-productos .carta {
+  max-width: 100%;
+  max-height: 100%;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  background-position: center;
+  background-size: 100% 10px;
+  background-repeat: no-repeat;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+@media (min-width: 1024px) {
+  header {
+    width: 100%;
+    margin: 0;
+  }
+  header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  header .nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+  }
+  header .nav a:hover {
+    font-size: 1.12em;
+  }
+  #hero h1 {
+    font-size: 5em;
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+    -webkit-animation-name: slidein;
+            animation-name: slidein;
+  }
+  #hero button {
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+    -webkit-animation-name: slideup;
+            animation-name: slideup;
+  }
+  #final h2 {
+    font-size: 5vw;
+  }
+  #final button {
+    font-size: 1vw;
+  }
+  #beneficios {
+    background-image: url("../images/pesas.jpg");
+    background-repeat: no-repeat;
+    background-size: 700px 420px;
+    background-position: 800px 140px;
+  }
+  #beneficios .container {
+    text-align: initial;
+  }
+  #beneficios ul {
+    margin-left: 20px;
+  }
+  #beneficios li {
+    font-size: 30px;
+    margin: 10px;
+    margin-bottom: 40px;
+  }
+  #nuestros-productos {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 80px 120px;
+  }
+  #nuestros-productos h2 {
+    margin-top: 0;
+    font-size: 3.2em;
+    text-shadow: 2px 2px 10px rgb(131, 131, 131);
+  }
+  #nuestros-productos h3 {
+    margin-top: 10px;
+    font-size: 2em;
+  }
+  #nuestros-productos p {
+    display: flex;
+    margin-top: 30px;
+    font-size: 1.2em;
+  }
+  #nuestros-productos .muestras {
+    display: flex;
+    justify-content: center;
+  }
+  #nuestros-productos .carta {
+    max-width: 100%;
+    max-height: 100%;
+    height: 900px;
+    width: 2500px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    padding: 80px;
+    margin: 20px;
+    border-radius: 15px;
+  }
+  #nuestros-productos .carta:hover {
+    box-shadow: 5px 5px 100px rgba(0, 0, 0, 0.5);
+  }
+  .pie-pagina .grupo1 {
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+    max-height: 50px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 380px;
+  }
+  .pie-pagina .box p {
+    text-align: center;
+    text-align: center;
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  .pie-pagina .box h2 {
+    display: block;
+    color: black;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  .pie-pagina #logo {
+    margin-left: 150px;
+  }
+  #sucursales {
+    margin-top: 100px;
+  }
+  .carousel-inner h1 {
+    font-size: 4vw;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+  }
+  .carousel-inner a {
+    margin: 15px 0px;
+  }
+  #articulo .container {
+    text-align: center;
+    margin: 0 160px 0 160px;
+  }
+  #nuestras-promos {
+    padding-left: 190px;
+  }
+  #nuestras-promos .container {
+    margin: 10px;
+  }
+  #nuestras-promos .promos {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+  }
+  #nuestras-promos .carta {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 15px;
+  }
+  #somos-fabricantes .container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  #somos-fabricantes .texto {
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #somos-fabricantes h2 {
+    margin-top: 0px;
+  }
+  #somos-fabricantes .img-container {
+    height: 500px;
+    width: 400px;
+  }
+  #entrena-bien .container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  #entrena-bien .texto {
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #entrena-bien h2 {
+    margin-top: 0px;
+  }
+  #entrena-bien .img-container {
+    background-image: url("Imagenes/Farbricantes.jpeg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px;
+  }
+}
+@media (max-width: 568px) {
+  .pie-pagina {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .pie-pagina .grupo1 {
+    align-items: center;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+    max-height: 10px;
+    margin-left: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .pie-pagina .box p {
+    text-align: center;
+    font-size: 10px;
+    margin-right: 12px;
+    margin-top: 15px;
+  }
+  .pie-pagina .box h2 {
+    display: none;
+  }
+}
+#somos-fabricantes .container {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+#somos-fabricantes .texto {
+  margin-top: 10px;
+}
+#somos-fabricantes h2 {
+  margin-top: 0px;
+}
+
+#entrena-bien .container {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+#entrena-bien .texto {
+  margin-top: 10px;
+}
+#entrena-bien h2 {
+  margin-top: 0px;
+}
+
+#nuestras-promos {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+#nuestras-promos h3 {
+  margin: 40px 0px;
+  text-shadow: 2px 2px 10px rgba(88, 86, 86, 0.7);
+}
+#nuestras-promos p {
+  display: none;
+}
+#nuestras-promos .carta {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  background-position: center;
+  background-size: 100% 150px;
+  background-repeat: no-repeat;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
+}
+#nuestras-promos h2 {
+  margin: 100px 0px;
+  font-size: 3.2em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+body h1 {
+  font-size: 3.5em;
+}
+body h2 {
+  font-size: 2.7em;
+}
+body h3 {
+  font-size: 2em;
+}
+body p {
+  font-size: 1.25em;
+}
+body ul {
+  list-style: none;
+}
+body li {
+  font-size: 1.25em;
+}
+body header {
+  width: 100%;
+  margin: 0;
+}
+body header .container {
+  flex-direction: row;
+  justify-content: space-between;
+}
+body header .nav {
+  flex-direction: row;
+  padding-bottom: 0;
+  padding-right: 20px;
+}
+body header .nav a:hover {
+  font-size: 1.12em;
+}
+body button {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 0, 5);
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+body button button:hover {
+  background-color: rgba(177, 177, 177, 0.322);
+  color: white;
+  border: 5px;
+}
+body .container {
+  max-width: 1400px;
+  margin: auto;
+}
+body a {
+  text-decoration: none;
+  color: black;
+}
+body .logo {
+  margin: 0;
+  padding: 25px 30px;
+  display: flex;
+  align-items: center;
+}
+body nav a {
+  font-weight: 600;
+  padding-right: 10px;
+}
+body img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@-webkit-keyframes slidein {
+  0% {
+    margin-bottom: 100%;
+  }
+  100% {
+    margin-bottom: 0%;
+  }
+}
+
+@keyframes slidein {
+  0% {
+    margin-bottom: 100%;
+  }
+  100% {
+    margin-bottom: 0%;
+  }
+}
+@-webkit-keyframes slideup {
+  0% {
+    margin-top: 100%;
+  }
+  100% {
+    margin-top: 0%;
+  }
+}
+@keyframes slideup {
+  0% {
+    margin-top: 100%;
+  }
+  100% {
+    margin-top: 0%;
+  }
+}/*# sourceMappingURL=style.css.map */

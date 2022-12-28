@@ -1,0 +1,38 @@
+#beneficios{ 
+    & .container{
+    text-align: center;
+    padding: 150px 20px;
+    }
+    & li{
+        margin: 16px 10px;
+        font-weight: bold;
+        line-height: 30px;
+    }
+    & li:hover{
+        font-size: 2em;
+    }
+}
+
+#final{
+    margin-top:  45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(
+        2deg,
+        rgba(0, 0, 0, 0.76),
+        rgb(180, 179, 179)
+    )
+    , url("../images/press.jpg.jpg");
+    background-color: black;
+    color: white;
+    height: 80vh;
+        & h2{
+            font-size: 9vw;
+        }
+        & button{
+            font-size: 5vw;
+        }
+}
