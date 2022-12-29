@@ -9,8 +9,8 @@
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
 
-    <link rel="stylesheet" href="estilos.css" />
-    <link rel="stylesheet" href="spinner.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/spinner.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
@@ -27,19 +27,17 @@
 <body>
     <header>
         <nav class="navbar navbar-light bg-dark min-vw-100">
-            <h2 class="p-3 text-white">Ecommerce</h2>
+            <h2 class="p-3 text-white">The Promise Fitness</h2>
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link text-white" data-bs-toggle="modal" data-bs-target="#modal">
                         <i class="bi bi-cart mx-5" id="carritoContenedor">0</i>
                     </a>
-                    <a class="text-white" href="index.html">Volver</a>
+                    <a class="text-white" href="../index.html">Volver</a>
                 </li>
             </ul>
         </nav>
     </header>
-
-    <button id="activarFuncion" class="btn btn-secondary boton mt-2">¡Click!</button>
 
     <main>
         <div class="container">
@@ -80,9 +78,7 @@
                                     <th colspan="4" scope="col" class="text-right">TOTAL
                                         <p id="totalProceso"></p>
                                     </th>
-                                    <!-- <th scope="col"></th> -->
                                 </tr>
-
                             </table>
                         </div>
 
@@ -95,7 +91,7 @@
 
                         <div class="row justify-content-between">
                             <div class="col-md-4 mb-2">
-                                <a href="index.html" class="btn btn-info btn-block">Seguir comprando</a>
+                                <a href="../index.html" class="btn btn-info btn-block">Seguir comprando</a>
                             </div>
                             <div class="col-xs-12 col-md-4">
                                  <input type="submit" class="btn btn-success btn-block" id="button" value="Finalizar compra" >
@@ -115,8 +111,8 @@
 
 
 
-    <script src="main.js"></script>
-    <script src="bootstrap.bundle.min.js"></script>
+    <script src="../main.js"></script>
+    <script src="../bootstrap.bundle.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 

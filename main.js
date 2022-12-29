@@ -25,43 +25,19 @@ const stockProductos = [
     },
     {
       id: 4,
-      nombre: "Dragon Ball Xenoverse",
+      nombre: "Banco + piernas",
       cantidad: 1,
-      desc: "Vive la experiencia dragon ball",
-      precio: 1000,
-      img: "img/dragonball.jpg",
+      desc: "Todo lo que ofrece un banco multi angular más el benefio de poder entrenar piernas",
+      precio: 38000,
+      img: "../images/banco-p.jpg",
     },
     {
       id: 5,
-      nombre: "Naruto Ninja Storm 4",
+      nombre: "Zorex HGZ-1001",
       cantidad: 1,
-      desc: "La historia de Naruto",
-      precio: 1200,
-      img: "img/naruto.jpg",
-    },
-    {
-      id: 6,
-      nombre: "Shingeki Final Attack",
-      cantidad: 1,
-      desc: "Eren Jeager vuelve en formato gamer...",
-      precio: 1200,
-      img: "img/shingeki.jpg",
-    },
-    {
-      id: 7,
-      nombre: "League of Legends",
-      cantidad: 1,
-      desc: "No compres esto por tu bien",
-      precio: 1400,
-      img: "img/league.jpg",
-    },
-    {
-      id: 8,
-      nombre: "Call Of Duty Warzone",
-      cantidad: 1,
-      desc: "Dispara como nunca",
-      precio: 1200,
-      img: "img/callduty.jpg",
+      desc: "Diseñado para realizar múltiples ejercicios como extensión de pecho, polea alta, tracción baja, remo, peck-deck, extensión de piernas, etc.",
+      precio: 110000,
+      img: "../images/zor.jpg",
     },
   ];
   let carrito = [];
@@ -240,10 +216,6 @@ const stockProductos = [
    } else {
   
     const btn = document.getElementById('button');
-  
-  // document.getElementById('procesar-pago')
-  //  .addEventListener('submit', function(event) {
-  //    event.preventDefault();
   
      btn.value = 'Enviando...';
   
